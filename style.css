@@ -16,6 +16,13 @@
     
 }
 
+.mp  {
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 0.6px #ffffff;
+    line-height: 1;
+    
+}
+
 img{
     width: 100%;
     display: flex;
@@ -75,6 +82,7 @@ nav{
 .btn{
     padding: 1rem 2rem;
     font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
     background-color: #1d4ed8;
     border-radius: 5px;
@@ -83,7 +91,8 @@ nav{
 }
 
 .btn:hover{
-    background-color: #1e40af;
+    background-color: #14308b;
+    
 }
 
 .container{
@@ -185,7 +194,7 @@ section .header{
 
 .features .card span{
     display: inline-block;
-    background-color: #1e40af;
+    
     text-align: center;
     width: 80px;
     height: 53px;
