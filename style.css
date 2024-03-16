@@ -83,16 +83,16 @@ nav{
     padding: 1rem 2rem;
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #fff;
-    background-color: #1d4ed8;
+    color:black ;
+    background-color: ;
     border-radius: 5px;
-    cursor: pointer;
     transition: all 0.3s ease;
 }
 
-.btn:hover{
-    background-color: #14308b;
-    
+.btn:active {
+background-color: #1d4ed8;
+color: white;
+transform: scale(2%,1%);
 }
 
 .container{
