@@ -65,9 +65,7 @@ nav{
     color: #fff;
 }
 
-#link4 img {
-    width: 20px;
-}
+
 .link a::after{
     content: "";
     position: absolute;
@@ -311,6 +309,7 @@ footer{
     display: grid;
     grid-template-columns: 400px repeat(3, 1fr);
     gap: 2rem;
+    
 }
 
 footer .column .logo{
@@ -327,6 +326,7 @@ footer .column .socials{
     display: flex;
     align-items: center;
     gap: 1rem;
+    
 }
 
 footer .column .socials a{
