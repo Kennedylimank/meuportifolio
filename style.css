@@ -113,15 +113,17 @@ nav{
 }
 
 .btn{
-    padding: 1rem 2rem;
-    font-size: 1rem;
+    padding: 19px;
+    font-size: 1.1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:black ;
-    width: 10px;
+    width: 1px;
+    height: 4px;
     border-radius: 5px;
     transition: all 0.3s ease;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .btn-home {
